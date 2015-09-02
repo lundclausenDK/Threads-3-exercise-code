@@ -1,3 +1,5 @@
+package ex10;
+
 // For week 2
 // sestoft@itu.dk * 2014-08-25
 
