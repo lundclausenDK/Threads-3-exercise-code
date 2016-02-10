@@ -7,7 +7,6 @@ package ex12;
 class Printer {
 
     public static void print() {
-        synchronized (Printer.class){
         System.out.print("-");
         try {
             Thread.sleep(50);
@@ -15,5 +14,4 @@ class Printer {
         }
         System.out.print("|");
         }
-    }
 }
